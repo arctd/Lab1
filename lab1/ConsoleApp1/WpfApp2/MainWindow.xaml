@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="textBox" Height="30" Margin="273,143,300,246" />
+        <Button x:Name="showButton" Content="Показать содержимое файла" Margin="273,237,300,147" Click="showButton_Click" />
+        <Button x:Name="formatButton" Content="Форматировать  содержимое файл" Margin="273,197,300,187" Click="formatButton_Click" />
+        <Button x:Name="writeButton" Content="Добавить текст в файл" Margin="513,143,128,246" Click="writeButton_Click" />
+        <Button x:Name="clearButton" Content="Очистить файл" Margin="151,143,540,246" Click="clearButton_Click" />
+    </Grid>
+</Window>

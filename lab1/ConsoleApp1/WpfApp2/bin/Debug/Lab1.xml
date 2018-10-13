@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WpfApp2</name>
+    </assembly>
+    <members>
+        <member name="T:WpfApp2.App">
+            <summary>
+            Логика взаимодействия для App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:WpfApp2.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:WpfApp2.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:WpfApp2.MainWindow">
+            <summary>
+            Логика взаимодействия для MainWindow.xaml
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="F:WpfApp2.MainWindow.filePath">
+            <p>
+            В поле filePath хранится путь к файлу
+            </p>
+        </member>
+        <member name="M:WpfApp2.MainWindow.showButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Метод showButton_Click показывает содержимое файла, при нажатии на кнопку showButton
+            </summary>
+        </member>
+        <member name="M:WpfApp2.MainWindow.formatButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Метод formatButton_Click форматирует текст, при нажатии на кнопку formatButton
+            </summary>
+        </member>
+        <member name="M:WpfApp2.MainWindow.writeButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Метод writeButton_Click записывает текст из поля textBox в файл, при нажатии на кнопку writeButton
+            </summary>
+        </member>
+        <member name="M:WpfApp2.MainWindow.clearButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Метод clearButton_Click очищает файл, при нажатии на кнопку writeButton.
+            </summary>
+        </member>
+        <member name="M:WpfApp2.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Lab1.Properties.Resources">
+            <summary>
+              Класс ресурсов со строгим типом для поиска локализованных строк и пр.
+            </summary>
+        </member>
+        <member name="P:Lab1.Properties.Resources.ResourceManager">
+            <summary>
+              Возврат кэшированного экземпляра ResourceManager, используемого этим классом.
+            </summary>
+        </member>
+        <member name="P:Lab1.Properties.Resources.Culture">
+            <summary>
+              Переопределяет свойство CurrentUICulture текущего потока для всех
+              подстановки ресурсов с помощью этого класса ресурсов со строгим типом.
+            </summary>
+        </member>
+    </members>
+</doc>
